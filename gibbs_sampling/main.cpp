@@ -133,7 +133,7 @@ int main(void)
 				double topic0 = result_c[0] / (result_c[0] + result_c[1]);
 				double topic1 = result_c[1] / (result_c[0] + result_c[1]);
 				int l = 1000000* topic0;				
-				if(random()%1000000 <= l )
+				if(rand()%1000000 <= l )
 				{
 					doc[d][i][1] = 0;
 				}
